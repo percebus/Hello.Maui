@@ -1,24 +1,36 @@
-﻿namespace Hello.Maui.AnyDeviceApp;
-
-public partial class MainPage : ContentPage
+﻿// <copyright file="MainPage.xaml.cs" company="JCystems">
+// Copyright (c) JCystems. All rights reserved.
+// </copyright>
+namespace Hello.Maui.AnyDeviceApp
 {
-	int count = 0;
+    /// <summary>
+    /// Partial class for Main ContentPage.
+    /// </summary>
+    public partial class MainPage : ContentPage
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainPage"/> class.
+        /// </summary>
+        public MainPage() => this.InitializeComponent();
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+        /// <summary>
+        /// Gets count of clicks.
+        /// </summary>
+        protected int Count { get; private set; } = 0;
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+        private void OnCounterClicked(object sender, EventArgs e)
+        {
+            this.Count++;
+            if (this.Count == 1)
+            {
+                this.CounterBtn.Text = $"Clicked {this.Count} time";
+            }
+            else
+            {
+                this.CounterBtn.Text = $"Clicked {this.Count} times";
+            }
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+            SemanticScreenReader.Announce(this.CounterBtn.Text);
+        }
+    }
 }
-

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JCystems.Hello.Maui.AnyDeviceApp</name>
+    </assembly>
+    <members>
+        <member name="T:Hello.Maui.AnyDeviceApp.App">
+            <summary>
+            Partial class for Application.
+            </summary>
+        </member>
+        <member name="M:Hello.Maui.AnyDeviceApp.App.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Hello.Maui.AnyDeviceApp.App"/> class.
+            </summary>
+        </member>
+        <member name="T:Hello.Maui.AnyDeviceApp.AppShell">
+            <summary>
+            partial class for Shell Application.
+            </summary>
+        </member>
+        <member name="M:Hello.Maui.AnyDeviceApp.AppShell.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Hello.Maui.AnyDeviceApp.AppShell"/> class.
+            </summary>
+        </member>
+        <member name="T:Hello.Maui.AnyDeviceApp.MainPage">
+            <summary>
+            Partial class for Main ContentPage.
+            </summary>
+        </member>
+        <member name="M:Hello.Maui.AnyDeviceApp.MainPage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Hello.Maui.AnyDeviceApp.MainPage"/> class.
+            </summary>
+        </member>
+        <member name="P:Hello.Maui.AnyDeviceApp.MainPage.Count">
+            <summary>
+            Gets count of clicks.
+            </summary>
+        </member>
+        <member name="T:Hello.Maui.AnyDeviceApp.MauiProgram">
+            <summary>
+            Maui Program static class.
+            </summary>
+        </member>
+        <member name="M:Hello.Maui.AnyDeviceApp.MauiProgram.CreateMauiApp">
+            <summary>
+            Creates a Maui App via a MauiApp builder.
+            </summary>
+            <returns>MauiApp.</returns>
+        </member>
+        <member name="T:Hello.Maui.AnyDeviceApp.MainActivity">
+            <summary>
+            Main MauiAppCompatActivity.
+            </summary>
+        </member>
+        <member name="T:Hello.Maui.AnyDeviceApp.MainApplication">
+            <summary>
+            Main MauiApplication.
+            </summary>
+        </member>
+        <member name="M:Hello.Maui.AnyDeviceApp.MainApplication.#ctor(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Hello.Maui.AnyDeviceApp.MainApplication"/> class.
+            </summary>
+            <param name="handle">Ptr{Int} handler.</param>
+            <param name="ownership">JNI handler's ownership.</param>
+        </member>
+        <member name="M:Hello.Maui.AnyDeviceApp.MainApplication.CreateMauiApp">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

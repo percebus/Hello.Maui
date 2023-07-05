@@ -1,11 +1,21 @@
-﻿namespace Hello.Maui.AnyDeviceApp;
+﻿// <copyright file="App.xaml.cs" company="JCystems">
+// Copyright (c) JCystems. All rights reserved.
+// </copyright>
 
-public partial class App : Application
+namespace Hello.Maui.AnyDeviceApp
 {
-	public App()
-	{
-		InitializeComponent();
-
-		MainPage = new AppShell();
-	}
+    /// <summary>
+    /// Partial class for Application.
+    /// </summary>
+    public partial class App : Application
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="App"/> class.
+        /// </summary>
+        public App()
+        {
+            this.InitializeComponent();
+            this.MainPage = new AppShell();
+        }
+    }
 }

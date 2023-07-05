@@ -1,9 +1,18 @@
-﻿using Foundation;
+﻿// <copyright file="AppDelegate.cs" company="JCystems">
+// Copyright (c) JCystems. All rights reserved.
+// </copyright>
 
-namespace Hello.Maui.AnyDeviceApp;
-
-[Register("AppDelegate")]
-public class AppDelegate : MauiUIApplicationDelegate
+namespace Hello.Maui.AnyDeviceApp
 {
-	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    using Foundation;
+
+    /// <summary>
+    /// App's MauiUIApplicationDelegate.
+    /// </summary>
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate
+    {
+        /// <inheritdoc/>
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
 }
