@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MSLearnApp;
+namespace Hello.Maui.AnyDeviceApp;
 
 public class Program
 {

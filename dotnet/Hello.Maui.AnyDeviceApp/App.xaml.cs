@@ -1,4 +1,4 @@
-﻿namespace MSLearnApp;
+﻿namespace Hello.Maui.AnyDeviceApp;
 
 public partial class App : Application
 {

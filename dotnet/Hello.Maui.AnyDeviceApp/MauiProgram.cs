@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MSLearnApp;
+namespace Hello.Maui.AnyDeviceApp;
 
 public static class MauiProgram
 {

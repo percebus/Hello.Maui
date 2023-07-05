@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace MSLearnApp;
+namespace Hello.Maui.AnyDeviceApp;
 
 class Program : MauiApplication
 {

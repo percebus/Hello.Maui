@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MSLearnApp;
+namespace Hello.Maui.AnyDeviceApp;
 
 [Application]
 public class MainApplication : MauiApplication

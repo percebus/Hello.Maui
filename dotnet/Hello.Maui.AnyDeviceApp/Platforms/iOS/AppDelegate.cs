@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace MSLearnApp;
+namespace Hello.Maui.AnyDeviceApp;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate
