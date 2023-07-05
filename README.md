@@ -12,9 +12,9 @@
 
 ### Android
 
-* `bash scripts/android/run/emulator.ba.sh`
-* `bash scripts/android/run/dotnet.ba.sh`
+- `bash scripts/android/run/emulator.ba.sh`
+- `bash scripts/android/run/dotnet.ba.sh`
 
 ## Resources
 
-* [.NET MAUI with .NET CLI](https://mauiman.dev/maui_cli_commandlineinterface.html)
+- [.NET MAUI with .NET CLI](https://mauiman.dev/maui_cli_commandlineinterface.html)
