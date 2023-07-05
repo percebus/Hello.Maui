@@ -12,7 +12,7 @@ namespace Hello.Maui.AnyDeviceApp.WinUI
         /// <summary>
         /// Initializes a new instance of the <see cref="App"/> class.
         /// </summary>
-#pragma warning disable CS1061 // "App does not contain a definition for InitializeComponent"
+#pragma warning disable CS1061 // partial class. "App does not contain a definition for InitializeComponent"
         public App() => this.InitializeComponent();
 #pragma warning restore CS1061
 

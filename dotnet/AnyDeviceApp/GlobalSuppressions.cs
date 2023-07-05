@@ -5,5 +5,5 @@
 using System.Diagnostics.CodeAnalysis;
 
 #pragma warning disable IDE0076
-[assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "1-line exception.", Scope = "member", Target = "~M:Hello.Maui.AnyDeviceApp.WinUI.App.#ctor")]
+[assembly: SuppressMessage("CodeQuality", "IDE0079:Remove unnecessary suppression", Justification = "1-line exception.", Scope = "member")]
 #pragma warning restore IDE0076
