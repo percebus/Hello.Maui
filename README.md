@@ -12,8 +12,8 @@
 
 ### Android
 
-* `bash scripts/android/emulator.ba.sh`
-* `bash scripts/dotnet/build/android.ba.sh`
+* `bash scripts/android/run/emulator.ba.sh`
+* `bash scripts/android/run/dotnet.ba.sh`
 
 ## Resources
 
