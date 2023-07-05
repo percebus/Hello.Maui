@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello.Maui.AnyDeviceApp", "dotnet\Hello.Maui.AnyDeviceApp\Hello.Maui.AnyDeviceApp.csproj", "{87E085AC-F49E-4E52-BAF7-F957B2740513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello.Maui.AnyDeviceApp", "dotnet\AnyDeviceApp\Hello.Maui.AnyDeviceApp.csproj", "{87E085AC-F49E-4E52-BAF7-F957B2740513}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8E521B2-9F4B-476E-B0BD-2B85F6252434}"
 	ProjectSection(SolutionItems) = preProject
